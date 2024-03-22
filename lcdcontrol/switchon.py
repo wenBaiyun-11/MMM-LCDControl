@@ -16,7 +16,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 import sys
 from time import sleep
-import RPi.GPIO as GPIO
+import OPi.GPIO as GPIO
 import json
 import config
 
