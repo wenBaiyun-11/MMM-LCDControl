@@ -52,7 +52,7 @@ def main():
     
     try:
         readLCDStatus(config.get("GPIO_LCD_STATUS"))
-        if screenStatus == 0:
+        if screenStatus == 1:
             flipSwitch()
 
         GPIO.cleanup()
